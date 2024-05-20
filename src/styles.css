@@ -1,0 +1,62 @@
+/**
+ * TODO:
+ * - Write CSS for this component
+ * - Refer to the image in the readme
+ * 
+ * - Here are some sample colors to help you
+ *   - orange button: #f36b0a
+ *   - input border: #aaa
+ *   - typeahead choices background: #e2e2e2
+ *   - typeahead choices background with hover: #fff
+ */
+
+ .container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+ }
+
+ .input-field {
+    height: 28px;
+    width: 250px;
+    padding-left: 10px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+ }
+
+ .input-field::placeholder {
+    padding-left: 10px;
+ }
+
+ .btn-submit {
+    width: 100px;
+    height: 40px;
+    background-color: #f36b0a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+ }
+
+ .typeahead {
+    width: fit-content;
+ }
+
+ .list-container {
+    background-color: #e2e2e2;
+    max-width: 250px;
+    border-radius: 4px;
+    border: 2px solid #aaa;
+    list-style-type: none;
+    padding-inline-start: 0;
+    max-height: 400px;
+    overflow-y: scroll;
+ }
+
+ .list-item {
+    padding: 8px;
+ }
+
+ .list-item:hover {
+    background-color: #fff;
+    cursor: pointer;
+ }
